@@ -11,6 +11,10 @@
     <link rel="shortcut icon" href="./images/ama.ico" type="images/x-icon" />
     <title>AMAM</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/133260cff9.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header -->
@@ -18,9 +22,9 @@
     <header class="header">
       <div class="header__logo">
         <img class="header__logo__img" src="./images/ama.ico" alt="logo" />
-        <h1><a href="#">AMAM</a></h1>
+        <h1 class="header__logo__title"><a href="#">AMAM</a></h1>
       </div>
-      <nav class="header__nave">
+      <nav class="header__nav">
         <ul class="header__menu">
           <li><a href="#home" class="header__menu__item active">홈으로</a></li>
           <li>><a href="#about" class="header__menu__item">AAMM</a></li>
@@ -35,7 +39,8 @@
       <section id="home">
         <img class="home__avatar" src="./images/ama.jpg" alt="프로필 사진" />
         <h2 class="home__title">
-          안녕하세요<br /><strong classhome__title--strong>반갑습니다</strong>
+          안녕하세요<br /><strong class="home__title--strong">정말</strong
+          >반갑습니다
         </h2>
         <p class="home__description">
           iceveveasoyergfswasitinnherfingalikderjustnothermil
@@ -75,14 +80,14 @@
           <li class="job">
             <img src="./images/crooked.jpg" alt="ncsoft 로고" />
             <div>
-              <p class="job__name">엔씨소프트 시스템 엔지니어</p>
+              <p class="job__name">silence kid</p>
               <p class="job__period">20XX ~ 20XX</p>
             </div>
           </li>
           <li class="job">
             <img src="./images/crooked.jpg" alt="sk 로고" />
             <div>
-              <p class="job__name">SK M&C 플랫폼 엔지니어</p>
+              <p class="job__name">no one to remind you</p>
               <p class="job__period">20XX ~ 20XX</p>
             </div>
           </li>
@@ -135,7 +140,7 @@
                     <span>React</span><span>70%</span>
                   </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 100%"></div>
+                    <div class="bar__value" style="width: 70%"></div>
                   </div>
                 </li>
                 <li class="bar">
@@ -143,7 +148,7 @@
                     <span>Python</span><span>95%</span>
                   </div>
                   <div class="bar__bg">
-                    <div class="bar__value" style="width: 100%"></div>
+                    <div class="bar__value" style="width: 95%"></div>
                   </div>
                 </li>
               </ul>
@@ -176,18 +181,26 @@
           <h2 class="title">포트폴리오</h2>
           <p class="description">projects</p>
           <ul class="categories">
-            <button class="category category--selected">
-              All<span class="category__count">10</span>
-            </button>
-            <button class="category">
-              Fron-end<span class="category__count">3</span>
-            </button>
-            <button class="category">
-              Mobile<span class="category__count">5</span>
-            </button>
-            <button class="category">
-              Back-end<span class="category__count">2</span>
-            </button>
+            <li>
+              <button class="category category--selected">
+                All<span class="category__count">10</span>
+              </button>
+            </li>
+            <li>
+              <button class="category">
+                Fron-end<span class="category__count">3</span>
+              </button>
+            </li>
+            <li>
+              <button class="category">
+                Mobile<span class="category__count">5</span>
+              </button>
+            </li>
+            <li>
+              <button class="category">
+                Back-end<span class="category__count">2</span>
+              </button>
+            </li>
           </ul>
           <ul class="projects">
             <li class="project">
@@ -199,7 +212,124 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">Project #1</h3>
-                  <p>콜론 코딩 사이트</p>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #2</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #3</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #4</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #5</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #6</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #7</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #8</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #9</h3>
+                  <p>crooked rain, crooked rain</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/crooked.jpg"
+                  alt="포트폴리오"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #10</h3>
+                  <p>crooked rain, crooked rain</p>
                 </div>
               </a>
             </li>
